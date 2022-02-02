@@ -10,7 +10,7 @@ function App() {
     
 
     axios
-      .get(`http://40.114.7.55:8081/ahsan`)
+      .get(`http://40.114.7.55:8081`)
       .then((res) => {
         // history.push("http://localhost:3000/store");
         console.log(res.data);
